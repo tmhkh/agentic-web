@@ -1,0 +1,20 @@
+# 環境・機密情報（絶対にコミットしない）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*
+*.credentials
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# ログ・一時ファイル
+*.log
+tmp/
+.cache/
